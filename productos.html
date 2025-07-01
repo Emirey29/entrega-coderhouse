@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productos - Enterasoft</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    section.productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    article.producto {
+      border: 1px solid #dee2e6;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    @media (max-width: 600px) {
+      article.producto {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Enterasoft</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-4">
+    <div class="alert alert-info text-center" role="alert">
+      Conoce nuestros productos para mejorar la eficiencia de tu empresa.
+    </div>
+
+    <section class="productos">
+      <article class="producto">
+        <h2>WMS Mobile</h2>
+        <p>Sistema de gestión de almacenes móvil que mejora el control de inventario y logística en tiempo real.</p>
+      </article>
+      <article class="producto">
+        <h2>Portal de Proveedores</h2>
+        <p>Herramienta de colaboración entre empresa y proveedores para la gestión eficiente de pedidos y pagos.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="bg-light text-center py-3">
+    <small>&copy; 2025 Enterasoft. Todos los derechos reservados.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
