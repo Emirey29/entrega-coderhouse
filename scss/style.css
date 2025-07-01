@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.main-index {
+  position: relative;
+  min-height: 100vh;
+  color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: center;
+}
+.main-index::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+.main-index h1 {
+  font-size: 4rem;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+.main-index p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+.main-index .overlay-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem 3rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.main-index .overlay-content h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #0d6efd;
+  padding-bottom: 0.25rem;
+}
+.main-index .overlay-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+.main-index .overlay-content ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand .logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .main-index h1 {
+    font-size: 3rem;
+  }
+  .main-index .overlay-content {
+    padding: 1rem 2rem;
+  }
+  .main-index .overlay-content h2 {
+    font-size: 1.5rem;
+  }
+  .main-index .overlay-content ul li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .main-index h1 {
+    font-size: 2.2rem;
+  }
+  .main-index .overlay-content {
+    padding: 1rem;
+  }
+  .main-index .overlay-content h2 {
+    font-size: 1.25rem;
+  }
+  .main-index .overlay-content ul li {
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
