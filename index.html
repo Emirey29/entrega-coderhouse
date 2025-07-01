@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- index.html -->
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -7,47 +6,6 @@
   <link rel="stylesheet" href="scss/style.css">
   <title>Enterasoft</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    main {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      position: relative;
-      color: white;
-      text-shadow: 0 0 5px black;
-      text-align: center;
-      z-index: 1;
-    }
-    main::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('images/fondo.jpg') no-repeat center center/cover;
-      z-index: -1;
-      opacity: 0.7;
-    }
-    .navbar-brand img.logo {
-      width: 40px;
-      height: 40px;
-      object-fit: contain;
-      margin-right: 10px;
-    }
-    @media (max-width: 768px) {
-      main {
-        padding: 20px;
-        text-align: center;
-      }
-    }
-  </style>
 </head>
 <body>
   <header class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -70,8 +28,8 @@
   </header>
 
   <main class="main-index container text-center">
-    <h1>Enterasoft</h1>
-    <p>Desarrollo e integración de aplicaciones empresariales</p>
+    <h1 class="text-primary">Enterasoft</h1>
+    <p class="text-primary">Desarrollo e integración de aplicaciones empresariales</p>
 
     <section class="overlay-content">
       <h2>Servicios</h2>

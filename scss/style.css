@@ -112,4 +112,8 @@ a:hover {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+.main-index h1,
+.main-index p {
+  color: #0d6efd;
+}
+
