@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #212529;
-  background-color: #f8f9fa;
+  color: #c0ccd7;
+  background-color: #527a7a;
 }
 
 h1, h2, h3, h4 {
@@ -11,7 +11,7 @@ h1, h2, h3, h4 {
 
 a {
   text-decoration: none;
-  color: #0d6efd;
+  color: #117d0d;
 }
 a:hover {
   text-decoration: underline;
@@ -20,7 +20,7 @@ a:hover {
 .main-index {
   position: relative;
   min-height: 100vh;
-  color: #f8f9fa;
+  color: #276c33;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,7 +51,7 @@ a:hover {
   margin-bottom: 2rem;
 }
 .main-index .overlay-content {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(151, 136, 136, 0.6);
   padding: 1.5rem 3rem;
   border-radius: 12px;
   max-width: 600px;
@@ -60,7 +60,7 @@ a:hover {
 .main-index .overlay-content h2 {
   font-size: 2rem;
   margin-bottom: 0.75rem;
-  border-bottom: 2px solid #0d6efd;
+  border-bottom: 2px solid #14532d; /* Cambiado de azul a verde oscuro */
   padding-bottom: 0.25rem;
 }
 .main-index .overlay-content ul {
@@ -114,6 +114,5 @@ a:hover {
 
 .main-index h1,
 .main-index p {
-  color: #0d6efd;
+  color: #14532d; 
 }
-
